@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="ResQHub connects communities, emergency services, environmental agencies and volunteers across Ghana.">
+
+    <title>ResQHub | Ghana's Emergency Response Hub</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="src/variables.css">
+    <link rel="stylesheet" href="src/style.css">
+    <link rel="stylesheet" href="src/responsive.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="navbar">
+
+        <div class="container nav-container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-mark">R</span>
+                <span class="logo-text">ResQHub</span>
+            </a>
+
+            <nav class="desktop-nav">
+                <a href="index.html" class="active">Home</a>
+                <a href="pages/about.html">About</a>
+                <a href="pages/services.html">Services</a>
+                <a href="pages/contact.html">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+
+                <a href="pages/login.html" class="login-link">
+                    Log in
+                </a>
+
+                <a href="#emergency" class="emergency-nav">
+                    <span>⚠</span>
+                    Get Started
+                </a>
+
+                <button class="mobile-menu-btn"
+                        id="mobileMenuBtn"
+                        aria-label="Open menu">
+                    ☰
+                </button>
+
+            </div>
+
+        </div>
+
+        <!-- Mobile navigation -->
+
+        <nav class="mobile-nav" id="mobileNav">
+
+            <a href="index.html">Home</a>
+            <a href="pages/about.html">About</a>
+            <a href="pages/services.html">Services</a>
+            <a href="pages/contact.html">Contact</a>
+            <a href="pages/login.html">Log in</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         HERO SECTION
+    ========================== -->
+
+    <main>
+
+        <section class="hero" id="emergency">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <span class="eyebrow">
+                        <span class="status-dot"></span>
+                        LIVE EMERGENCY COORDINATION
+                    </span>
+
+                    <h1>
+                        Ghana's Emergency
+                        <span>Response Hub</span>
+                    </h1>
+
+                    <p>
+                        Coordinating emergency services, waste management,
+                        and volunteer networks across all 16 regions of
+                        Ghana — 24/7, 365 days.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="pages/contact.html"
+                           class="btn btn-danger">
+                            ⚠ Report Emergency
+                        </a>
+
+                        <a href="pages/services.html"
+                           class="btn btn-outline">
+                            ♻ Report Waste Site
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Live coordination card -->
+
+                <div class="coordination-card">
+
+                    <div class="coordination-header">
+
+                        <strong>Ghana Live Map</strong>
+
+                        <span class="live-status">
+                            ● LIVE
+                        </span>
+
+                    </div>
+
+                    <div class="map-area">
+
+                        <div class="map-dot dot-one"></div>
+                        <div class="map-dot dot-two"></div>
+                        <div class="map-dot dot-three"></div>
+                        <div class="map-dot dot-four"></div>
+                        <div class="map-dot dot-five"></div>
+
+                    </div>
+
+                    <div class="map-items">
+
+                        <span>
+                            🔴 Active Emergencies
+                        </span>
+
+                        <span>
+                            🟢 Waste Sites Reported
+                        </span>
+
+                        <span>
+                            🔵 Active Volunteers
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Hero statistics -->
+
+            <div class="container hero-stats">
+
+                <div>
+                    <strong>1,247</strong>
+                    <span>Emergencies Resolved</span>
+                </div>
+
+                <div>
+                    <strong>503T</strong>
+                    <span>Waste Collected</span>
+                </div>
+
+                <div>
+                    <strong>3,400</strong>
+                    <span>Active Volunteers</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             IMPACT STATISTICS
+        ========================== -->
+
+        <section class="statistics">
+
+            <div class="container statistics-grid">
+
+                <article class="stat-card">
+
+                    <div class="stat-icon emergency-icon">
+                        🚨
+                    </div>
+
+                    <div>
+                        <span class="growth">+12% this month</span>
+                        <strong>1,247</strong>
+                        <small>Emergencies Resolved</small>
+                    </div>
+
+                </article>
+
+
+                <article class="stat-card">
+
+                    <div class="stat-icon waste-icon">
+                        ♻
+                    </div>
+
+                    <div>
+                        <span class="growth">+8% this month</span>
+                        <strong>503T</strong>
+                        <small>Waste Collected</small>
+                    </div>
+
+                </article>
+
+
+                <article class="stat-card">
+
+                    <div class="stat-icon volunteer-icon">
+                        👥
+                    </div>
+
+                    <div>
+                        <span class="growth">+23% this month</span>
+                        <strong>3,400</strong>
+                        <small>Active Volunteers</small>
+                    </div>
+
+                </article>
+
+
+                <article class="stat-card">
+
+                    <div class="stat-icon community-icon">
+                        🏠
+                    </div>
+
+                    <div>
+                        <span class="growth">+5% this quarter</span>
+                        <strong>127</strong>
+                        <small>Communities Served</small>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             INTEGRATED PLATFORM
+        ========================== -->
+
+        <section class="platform">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        OUR SERVICES
+                    </span>
+
+                    <h2>
+                        Integrated Response Platform
+                    </h2>
+
+                    <p>
+                        Three core pillars working together to keep
+                        Ghanaian communities safe and clean.
+                    </p>
+
+                </div>
+
+
+                <div class="services-grid">
+
+                    <!-- Emergency -->
+
+                    <article class="service-card">
+
+                        <div class="service-icon emergency-bg">
+                            🚨
+                        </div>
+
+                        <span class="service-status critical">
+                            Critical
+                        </span>
+
+                        <h3>
+                            Emergency Response
+                        </h3>
+
+                        <p>
+                            24/7 emergency coordination across all 16
+                            regions. Real-time dispatch, GPS tracking,
+                            and multi-agency coordination.
+                        </p>
+
+                        <a href="pages/services.html">
+                            Learn more →
+                        </a>
+
+                    </article>
+
+
+                    <!-- Waste -->
+
+                    <article class="service-card">
+
+                        <div class="service-icon waste-bg">
+                            ♻
+                        </div>
+
+                        <span class="service-status active">
+                            Environmental
+                        </span>
+
+                        <h3>
+                            Waste Management
+                        </h3>
+
+                        <p>
+                            Report illegal dumping, track waste collection,
+                            and help keep communities clean.
+                        </p>
+
+                        <a href="pages/services.html">
+                            Learn more →
+                        </a>
+
+                    </article>
+
+
+                    <!-- Volunteers -->
+
+                    <article class="service-card">
+
+                        <div class="service-icon volunteer-bg">
+                            🛡
+                        </div>
+
+                        <span class="service-status community">
+                            Community
+                        </span>
+
+                        <h3>
+                            Volunteer Network
+                        </h3>
+
+                        <p>
+                            Connect with verified volunteers and
+                            organizations making communities safer.
+                        </p>
+
+                        <a href="pages/services.html">
+                            Learn more →
+                        </a>
+
+                    </article>
+
+                </div>
+
+
+                <!-- =========================
+                     CTA
+                ========================== -->
+
+                <div class="community-cta">
+
+                    <div>
+
+                        <h2>
+                            Join Ghana's Emergency Network
+                        </h2>
+
+                        <p>
+                            Become a volunteer or register your
+                            organization. Together, we can build
+                            safer communities.
+                        </p>
+
+                    </div>
+
+                    <div class="cta-buttons">
+
+                        <a href="pages/signup.html"
+                           class="btn btn-danger">
+                            Get Started
+                        </a>
+
+                        <a href="pages/about.html"
+                           class="btn btn-dark-outline">
+                            Learn More
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="logo footer-logo">
+
+                    <span class="logo-mark">R</span>
+
+                    <span class="logo-text">
+                        ResQHub
+                    </span>
+
+                </a>
+
+                <p>
+                    Connecting communities and emergency services
+                    across Ghana for a safer, cleaner future.
+                </p>
+
+                <div class="socials">
+
+                    <a href="#">f</a>
+                    <a href="#">𝕏</a>
+                    <a href="#">in</a>
+                    <a href="#">◎</a>
+
+                </div>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Platform</h4>
+
+                <a href="pages/services.html">Emergency Response</a>
+                <a href="pages/services.html">Waste Management</a>
+                <a href="pages/services.html">Volunteer Network</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Company</h4>
+
+                <a href="pages/about.html">About Us</a>
+                <a href="#">Our Story</a>
+                <a href="#">Partners</a>
+
+            </div>
+
+
+            <div class="footer-column">
+
+                <h4>Resources</h4>
+
+                <a href="#">Help Center</a>
+                <a href="#">Safety Guide</a>
+                <a href="pages/contact.html">Contact</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="container footer-bottom">
+
+            <span>
+                © 2026 ResQHub. All rights reserved.
+            </span>
+
+            <div>
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="src/hub.js"></script>
+
+</body>
+</html>
